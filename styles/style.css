@@ -28,7 +28,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.8;
 }
 
 .container {
@@ -59,7 +58,7 @@ main {
     flex-direction: column;
     height: 100%;
     margin-top: 20px;
-    margin-right: 45px;
+    margin-right: 55px;
 }
 
 .accent {
@@ -73,12 +72,9 @@ main {
 
 .images {
     background-color: var(--var-Soft-violet);
+    background-image: url(../images/image-header-desktop.jpg);
+    background-blend-mode: multiply; /*This is new to me!!*/
     width: 50%;
-}
-
-img {
-    width: 100%;
-    opacity: 0.5;
 }
 
 p {
@@ -117,6 +113,8 @@ p {
     }
     .images {
         width: 100%;
+        height: 300px;
+        background-size: cover;
     }
     .text h1 {
         font-size: 1.7rem;
