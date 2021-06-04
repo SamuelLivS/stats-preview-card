@@ -89,6 +89,7 @@ p {
 
 .attribution a {
     color: var(--var-Soft-violet);
+    text-decoration: none;
 }
 
 @media (max-width: 1000px) {
